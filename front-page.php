@@ -62,14 +62,14 @@
 			<div class="col-xs-12 col-sm-12 col-md-7">
 				<?php
 				query_posts(array(
-					'category_name' => 'headline', // get posts by category name
+					'category_name' => 'berita-utama', // get posts by category name
 					'posts_per_page' => 4 // all posts
 				));
 				?>
 				<!-- Nav tabs -->
 				<div class="card">
 					<ul class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Info Akademik</a></li>
+						<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Berita Pilihan</a></li>
 						<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Info Fakultas</a></li>
 						<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Info Beasiswa</a></li>
 						<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Unduhan</a></li>
@@ -80,7 +80,7 @@
 						<div role="tabpanel" class="tab-pane active" id="home">
 								<?php
 								query_posts(array(
-									'category_name' => 'informasi-akademik', // get posts by category name
+									'category_name' => 'berita-pilihan', // get posts by category name
 									'posts_per_page' => 3 // all posts
 								));
 								?>
@@ -96,7 +96,7 @@
 								<h3><a href="<?php echo get_the_permalink(); ?>"><?php the_title(); ?></a></h3>
 								<p><?php echo $thumb_card; ?><?php $content = get_the_excerpt(); echo preg_replace('/<img[^>]+./','',$content); ?> ...</p><hr />
 								<?php endwhile; ?>
-								<p class="pull-right"><a href="<?php echo get_site_url(); ?>/category/informasi-akademik/" class="btn btn-success">Lihat Lebih Banyak ...</a></p><br />
+								<p class="pull-right"><a href="<?php echo get_site_url(); ?>/category/berita-pilihan/" class="btn btn-success">Lihat Lebih Banyak ...</a></p><br />
 						</div>
 						<div role="tabpanel" class="tab-pane" id="profile">
 							<?php
