@@ -15,7 +15,7 @@ La Tansa Mashiro (Wordpress Template) adalah pengalaman perdana saya membuat tem
 * Demo lengkap bisa dilihat pada situs [La Tansa Mashiro]
 
 ## Tampilan
-![alt text](https://github.com/dikiwidia/la-tansa-mashiro/blob/dev/screenshot.jpeg)
+![alt text](https://github.com/dikiwidia/la-tansa-mashiro/blob/dev/screenshot.png)
 
 ## Ucapan Terimakasih
 - Tim IT La Tansa Mashiro
